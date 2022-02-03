@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          ref: upstream             # set the branch to merge to
+          ref: master             # set the branch to merge to
           fetch-depth: 0            # get all changes
       - name: Merge from upstream repo
         uses: discdiver/merge-from-upstream-repo@v0.0.9
